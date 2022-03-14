@@ -1,0 +1,696 @@
+img {
+  width: 60x;
+  height: 60px;
+
+}
+
+.nav-item {
+  margin-left: 20px;
+  margin-right: 15px;
+
+
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #6060a4;
+}
+
+.navbar-toggler:hover {
+  border: 2px solid white;
+  background-color: plum;
+  color: white;
+
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Hero section ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  */
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono";
+  font-size: 18px;
+}
+
+#hero {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.514), rgba(58, 58, 58, 0.89)),
+    url("https://wallpapercave.com/wp/wp4585515.jpg") no-repeat center / cover;
+  color: whitesmoke;
+}
+
+.info {
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text-align: center;
+}
+
+#hero .info h1 {
+  font-size: 5rem;
+  /* text-transform: uppercase; */
+  margin-bottom: 1rem;
+  display: inline;
+  text-align: center;
+}
+
+#hero .info h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+#hero .info p {
+  font-size: 2rem;
+  max-width: 100%;
+}
+
+#hero .info a {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 1.8rem;
+  padding: 5px;
+  width: 200px;
+  margin-top: 2rem;
+  border: 2px solid plum;
+  background-color: #f5f5f5;
+  color: rgb(128, 126, 126);
+}
+
+#hero .info a:hover {
+  border: 2px solid white;
+  background-color: plum;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+
+}
+
+
+
+
+#sec2 {
+  background: linear-gradient(rgba(172, 170, 170, 0.795), rgba(229, 156, 231, 0.685)),
+    url("https://static.vecteezy.com/system/resources/previews/002/058/764/large_2x/retro-futurism-landscape-background-free-vector.jpg") no-repeat center / cover;
+  height: 100vh;
+  width: 100%;
+  background-color: #7589bd;
+  color: whitesmoke;
+}
+
+#sec2 .info h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+
+#sec3 {
+  background: linear-gradient(rgba(85, 70, 92, 0.795), rgba(77, 53, 78, 0.685));
+  height: 100vh;
+  width: 100%;
+  background-color:
+    #cbc1da;
+  color: whitesmoke;
+  text-align: center;
+}
+
+#sec3 .info h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+#sec3 .info h3 {
+  font-size: 2rem;
+  /* text-transform: uppercase; */
+  margin-bottom: 1rem;
+}
+
+
+
+#sec3 .info a {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 1.8rem;
+  width: 200px;
+  margin-top: 2rem;
+
+  border: 2px solid plum;
+  background-color: #f5f5f5;
+  color: rgb(128, 126, 126);
+}
+
+#sec3 .info a:hover {
+  border: 2px solid white;
+  background-color: plum;
+  color: white;
+}
+
+
+
+/* ************************************** Social media button *************************************************** */
+/* **********************************************social media buttons************************************************************ */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+
+.fa:hover {
+  background-color: rgb(219, 216, 219);
+  opacity: 0.7;
+}
+
+
+
+
+.fa-facebook {
+  background:
+    #9ed4fa;
+  color: white;
+}
+
+.fa-instagram {
+  background:
+    #9ed4fa;
+  color: white;
+}
+
+.fa-linkedin {
+  background:
+    #9ed4fa;
+  color: white;
+}
+
+.fa-google {
+  background:
+    #9ed4fa;
+  color: white;
+}
+
+.fa-github {
+  background:
+    #9ed4fa;
+  color: white;
+}
+
+@media screen and (min-width:425px) and (max-width:609) {
+  .fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+  }
+   
+  html {
+    font-size: 10px;
+  }
+  
+
+
+   
+
+}
+
+@media screen and (min-width:320px) {
+  .fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+  }
+
+  html {
+    font-size: 10px;
+  }
+
+}
+
+/* ********************************************** end social media buttons************************************************************ */
+
+
+#sec4 {
+  height: 80vh;
+  width: auto;
+  background-color:
+    #b8b8d3f6;
+  color: whitesmoke;
+
+
+
+}
+
+#sec4 h2 {
+  padding: 20px;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: rgb(248, 244, 244);
+  text-align: center;
+}
+
+
+
+
+.skills {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 70px);
+  margin: 0;
+}
+
+.skl {
+  margin-left: 20px;
+  color: yellow;
+}
+
+.sklLine {
+  position: relative;
+  bottom: 8px;
+  visibility: hidden;
+  padding-left: 6px;
+  color: rgb(252, 249, 249);
+}
+
+.ProgWidth {
+  padding: 0px 20px;
+}
+
+.skillDiv {
+  height: 5px;
+  width: 100%;
+  background-color: gray;
+}
+
+.skillBar {
+  display: block;
+  height: 5px;
+  background-color: rgb(19, 204, 204);
+}
+
+.p {
+  display: flex;
+  justify-content: space-between;
+  color: #f6f8fc;
+}
+
+.htmlBar {
+  width: 70%;
+  animation: html 3s 1s 5 forwards;
+}
+
+.cssBar {
+  width: 70%;
+  animation: css 3s 1s 5 forwards;
+}
+
+.jsBar {
+  width: 20%;
+  animation: js 3s 1s 5 forwards;
+}
+
+.javaBar {
+  width: 85%;
+  animation: java 3s 1s 5 forwards;
+}
+
+.ccpBar {
+  width: 80%;
+  animation: ccp 3s 1s 5 forwards;
+}
+
+.reactBar {
+  width: 10%;
+  animation: react 3s 1s 5 forwards;
+}
+
+.nodeBar {
+  width: 35%;
+  animation: node 3s 1s 5 forwards;
+}
+
+.sqlBar {
+  width: 85%;
+  animation: sql 3s 1s 5 forwards;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes js {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 85%;
+  }
+}
+
+@keyframes java {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 85%;
+  }
+}
+
+@keyframes ccp {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes react {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes node {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 20%;
+  }
+}
+
+@keyframes sql {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 95%;
+  }
+}
+
+
+
+/* ******************************************************REFRENCES**********************************************************88 */
+
+#sec5 {
+  height: 100vh;
+  background-color: rgb(215, 196, 218);
+  background: linear-gradient(rgba(105, 67, 128, 0.795), rgba(81, 57, 82, 0.74)),
+    url("https://wallpaper.dog/large/5486505.jpg") no-repeat center / cover;
+
+}
+
+#sec5 h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+ 
+}
+
+.testimonials {
+  padding-bottom: 2.2em;
+  text-align: center;
+  color: rgb(255, 253, 253);
+}
+
+.testimonials .test-body {
+  padding: 1em;
+}
+
+.testimonials .item {
+  text-align: center;
+  padding: 1em 0;
+  margin: 2em;
+}
+
+.testimonials img {
+  width: 4.8em;
+  height: 4.8em;
+  border-radius: 50%;
+  margin-top: -25px;
+}
+
+.testimonials .name {
+  color: rgb(250, 250, 250);
+}
+
+.testimonials .desig {
+  font-size: 0.7em;
+  padding: 0.5em 0;
+  color: rgb(223, 215, 215);
+}
+
+/* #sec5 i{
+  color: #21c7d3;
+  padding: 0.5em 0;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.testimonials i:hover{
+  color: rgb(177, 69, 240);}
+ 
+  */
+
+@media (min-width: 38.4rem) {
+  .testimonials {
+    font-size: 1.2em;
+  }
+
+  .testimonials .test-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .testimonials p {
+    text-align: left;
+    padding: 1em;
+  }
+}
+
+
+
+
+
+
+
+
+/* ********************************************************footttter************************************************ */
+.footer-distributed {
+  background: #6060a4;
+  ;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  font: bold 16px sans-serif;
+  text-align: left;
+  padding: 50px 60px 40px;
+  overflow: hidden;
+}
+
+
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  float: left;
+}
+
+
+.footer-distributed .footer-company-name {
+  color: #f6faff;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+  float: right;
+}
+
+.footer-distributed .footer-right p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 15px 42px 0 0;
+  color: #ffffff;
+}
+
+/* The contact form */
+
+.footer-distributed form {
+  display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea {
+  display: block;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 0 1px 0 0 rgba(219, 218, 218, 0.1);
+  border: none;
+  resize: none;
+
+  font: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  color: #d1d2d2;
+
+  width: 400px;
+  padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+  color: #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+  color: #5c666b;
+  opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder {
+  color: #5c666b;
+}
+
+
+.footer-distributed form input {
+  height: 55px;
+  margin-bottom: 15px;
+}
+
+.footer-distributed form textarea {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.footer-distributed form button {
+  border-radius: 3px;
+  background-color: #d1afe7;
+  color: #ffffff;
+  border: 0;
+  padding: 15px 50px;
+  font-weight: bold;
+  float: right;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-company-name {
+    font-size: 12px;
+  }
+
+  .footer-distributed form input,
+  .footer-distributed form textarea {
+    width: 250px;
+  }
+
+  .footer-distributed form button {
+    padding: 10px 35px;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  .footer-distributed {
+    padding: 30px;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-right {
+    float: none;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .footer-distributed .footer-left {
+    margin-bottom: 40px;
+  }
+
+  .footer-distributed form {
+    margin-top: 30px;
+  }
+
+  .footer-distributed form {
+    display: block;
+  }
+
+  .footer-distributed form button {
+    float: none;
+  }
+}

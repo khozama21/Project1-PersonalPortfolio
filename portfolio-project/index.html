@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Home Page</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <style>
+
+    /* ---------------------------------------Media queury------------------------------------------------------- */
+    @media screen and (min-width:768px) and (max-width:609px) {
+
+      .main {
+        background-image: url(images/teahub.io-website-wallpaper-backgrounds-1269214.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center bottom;
+      }
+
+      .container {
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(7, 100px);
+        grid-template-rows: repeat(7, 100px);
+      }
+      .innerHero a {
+      
+      display: inline;
+
+
+    }
+
+    .innerHero a:hover {
+      
+      display: inline;
+    }
+    }
+
+    @media screen and (min-width:425px) and (max-width:609px) {
+
+      .main {
+        background-image: url(images/teahub.io-website-wallpaper-backgrounds-1269214.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center bottom;
+      }
+
+      .container {
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(4, 100px);
+        grid-template-rows: repeat(5, 100px);
+      }
+
+      .innerHero {
+        margin: 0;
+        grid-row: 2/4;
+        grid-column: 1/4;
+      }
+      .innerHero a {
+      
+      display: inline;
+
+
+    }
+
+    .innerHero a:hover {
+      
+      display: inline;
+    }
+    }
+
+
+    @media screen and (min-width:375px) and (max-width:609px) {
+
+      .main {
+        background-image: url(images/teahub.io-website-wallpaper-backgrounds-1269214.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center bottom;
+      }
+
+      .container {
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        grid-template-rows: repeat(10, 100px);
+      }
+    }
+
+    @media screen and (min-width:320px) and (max-width:609px) {
+
+      .main {
+        background-image: url(images/teahub.io-website-wallpaper-backgrounds-1269214.jpg);
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center bottom;
+      }
+
+      .container {
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 100px);
+        grid-template-rows: repeat(10, 100px);
+      }
+    }
+
+    /* ---------------------------------------Media queury------------------------------------------------------- */
+    hr {
+      border: 2px solid rgba(206, 108, 209, 0.445);
+
+    }
+
+    img {
+      width: 60x;
+      height: 60px;
+
+    }
+
+    .nav-item {
+      margin-left: 20px;
+      margin-right: 15px;
+
+
+    }
+
+    .navbar {
+      position: sticky;
+      top: 0;
+
+      background-color: #505050;
+    }
+
+    .main {
+      background-image: url(images/teahub.io-website-wallpaper-backgrounds-1269214.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center bottom;
+      background-size: cover;
+      height: 100vh;
+      box-sizing: border-box;
+      justify-content: center;
+      align-items: center;
+
+
+    }
+
+    .container {
+      margin: 0;
+      display: grid;
+      grid-template-columns: repeat(10, 100px);
+      grid-template-rows: repeat(10, 100px);
+    }
+
+
+    .about {
+      background: white;
+      height: 100vh;
+      box-sizing: border-box;
+      color: gray;
+    }
+
+
+
+    .experience {
+      background: #444444;
+      height: 100vh;
+      box-sizing: border-box;
+      color: white;
+    }
+
+    .education {
+
+      background: #747474;
+      height: 100vh;
+      box-sizing: border-box;
+      color: gray;
+    }
+
+    .innerHero {
+      margin: 0;
+      grid-row: 2/8;
+      grid-column: 1/8;
+    }
+
+    .hero-heading {
+      margin: 0;
+      font-weight: 200;
+      color: white;
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+    }
+
+    .innerHero p {
+      margin-top: 10px;
+      font-weight: bold;
+      color: rgb(185, 183, 183);
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      display: inline;
+
+    }
+
+    .innerHero a {
+      border: 2px solid plum;
+      background-color: #f5f5f5;
+      color: rgb(128, 126, 126);
+      padding: 5px;
+       margin: 10px;
+      width: 130px;
+
+
+    }
+
+    .innerHero a:hover {
+      border: 2px solid white;
+      background-color: plum;
+      color: white;
+      padding: 5px;
+      margin: 10px;
+      width: 130px;
+      
+    }
+
+    .navbar-toggler:hover {
+      border: 2px solid white;
+      background-color: plum;
+      color: white;
+
+    }
+
+    .about h2 {
+      margin: 0;
+      font-weight: 200;
+      color: gray;
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* **********************************************social media buttons************************************************************ */
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 70px;
+      text-align: center;
+      text-decoration: none;
+      margin: 10px;
+    }
+
+
+    .fa:hover {
+      background-color: #f5f5f5;
+      opacity: 0.7;
+    }
+
+
+
+    /* Facebook */
+    .fa-facebook {
+      background: #292a2b;
+      color: white;
+    }
+
+    /* Twitter */
+    .fa-instagram {
+      background: #363636;
+      color: white;
+    }
+
+    .fa-linkedin {
+      background: #363636;
+      color: white;
+    }
+
+    .fa-google {
+      background: #363636;
+      color: white;
+    }
+
+    .fa-github {
+      background: #363636;
+      color: white;
+    }
+
+    /* **********************************************social media buttons************************************************************ */
+
+
+
+    /* **********************************************section 2 divisions************************************************************ */
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .container1 {
+      padding: 10px;
+    }
+
+    /* Clear floats */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both
+    }
+
+    /* 2/3 column */
+    .column-66 {
+      float: left;
+      width: 66.66666%;
+      padding: 20px;
+    }
+
+    /* 1/3 column */
+    .column-33 {
+      float: left;
+      width: 33.33333%;
+      padding: 20px;
+    }
+
+
+    @media screen and (max-width: 1000px) {
+
+      .column-66,
+      .column-33 {
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    @media screen and (min-width:425px) {}
+
+
+    /* **********************************************section 2 divisions************************************************************ */
+  </style>
+</head>
+
+<body>
+
+
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <a class="navbar-brand" href="#"><img src="images/khozama Obeidat -cropped.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Experience</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            More
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Certificates</a>
+            <a class="dropdown-item" href="#">References</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Skills</a>
+            <a class="dropdown-item" href="#">Languages</a>
+
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+  </nav>
+  <!-- ----------------------------------- HERO SECTION------------------------------------------------------- -->
+  <section class="main">
+    <div class="container">
+      <div class="innerHero">
+        <h1 class="hero-heading"> HELLO! <br> I am Khozama Obeidat And I am here to help you create the best
+          web-application fit for your use.</h1>
+        <p>Let's Work togther!</p>
+        <a href="#" class="btn">Let's Go </a>
+
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section class="about">
+    <div>
+      <h2> About Me</h2>
+      <hr>
+    </div>
+    <div class="container1">
+      <div class="row">
+        <div class="column-66">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident explicabo ratione laudantium nihil
+            recusandae deserunt! Ipsum, quia quisquam praesentium modi rem quae, veritatis a libero perferendis,
+            voluptatibus debitis nulla dolore! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum nihil est
+            assumenda odio quia consectetur labore voluptas praesentium iusto dolorem exercitationem fuga, cumque
+            accusantium ducimus ullam voluptate ratione optio quisquam? Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Quidem expedita alias, provident dolore porro reprehenderit recusandae maiores. Et, ab
+            sapiente nesciunt dolor facilis est nostrum animi molestias suscipit quia ullam. Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Reiciendis, quaerat possimus tempore voluptatibus atque debitis corrupti
+            maiores, repudiandae totam quas harum facere molestiae magni eaque porro. Vero facilis voluptate reiciendis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sunt illo, animi ut quae sit corporis nemo
+            dicta quod cumque sequi non debitis laboriosam asperiores, veritatis magnam ratione similique praesentium.
+          </p>
+          <a href="https://www.linkedin.com/in/khozama-obeidat-325742191" class="fa fa-linkedin"></a>
+          <a href="https://github.com/khozama21" class="fa fa-github"></a>
+          <a href="#" class="fa fa-google"></a>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+        </div>
+        <div class="column-33">
+          <img src="images/khozama -logos_transparent.png" style="width: 100%; height: auto;">
+        </div>
+
+  </section>
+  <section class="  experience">
+    <div>HELLO!</div>
+  </section>
+  <section class=" education">
+    <div>HELLO!</div>
+
+    <footer class="footer">
+
+    </footer>
+</body>
+
+</html>
+
+<!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos obcaecati rem qui nisi, iste magni unde omnis
+          at provident perferendis dolores animi harum possimus saepe aliquam deleniti dolor ratione facere!<br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quas asperiores, pariatur sit repellat
+          expedita quis explicabo assumenda odit autem vitae magnam, velit accusamus, nobis accusantium quod unde error
+          placeat.</p>
+      </div>
+      <div class="imgleft"> <img src="images/fococlipping-20220313-21112.png"></div>-->
